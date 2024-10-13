@@ -6,7 +6,7 @@ metadata:
     app: deployment-new
   name: deployment-new
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: deployment-new
